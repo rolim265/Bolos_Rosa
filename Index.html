@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta http-equiv="x-ua-compatible" content="IE=edge">
+	<meta name="author" content="SemiColonWeb">
+	<meta name="description"
+		content="Create Real-Estate Buy, Sell &amp; Rent Websites with Canvas Template. Get Canvas to build powerful websites easily with the Highly Customizable &amp; Best Selling Bootstrap Template, today.">
+
+	<!-- Font Imports -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Rubik:wght@400;600&family=Lora:ital@0;1&display=swap"
+		rel="stylesheet">
+
+	<!-- Core Style -->
+	<link rel="stylesheet" href="style.css">
+	<!-- Custom Style -->
+	<link rel="stylesheet" href="css/custom.css">
+
+	<!-- Font Icons -->
+	<link rel="stylesheet" href="css/font-icons.css">
+	<link rel="stylesheet" href="font-icons-B.css">
+
+	<!-- Plugins/Components CSS -->
+	<link rel="stylesheet" href="components/bs-select.css">
+	<link rel="stylesheet" href="components/bs-switches.css">
+	<link rel="stylesheet" href="components/ion.rangeslider.css">
+	<link rel="stylesheet" href="css/swiper.css">
+
+	<!-- Niche Demos -->
+	<link rel="stylesheet" href="real-estate.css">
+
+	<style>
+		html {
+			scroll-behavior: smooth;
+			/* Funciona em navegadores modernos */
+		}
+	</style>
+	<script>
+		// Fallback para scroll suave no JavaScript
+		document.addEventListener('DOMContentLoaded', function () {
+			var links = document.querySelectorAll('a[href^="#"]');
+			for (var i = 0; i < links.length; i++) {
+				links[i].addEventListener('click', function (e) {
+					var targetId = this.getAttribute('href').substring(1);
+					var target = document.getElementById(targetId);
+					if (target) {
+						e.preventDefault();
+						target.scrollIntoView({
+							behavior: 'smooth'
+						});
+					}
+				});
+			}
+		});
+	</script>
+
+	<!-- Custom CSS -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Document Title
+	============================================= -->
+	<title>Bolos da Rosa</title>
+
+</head>
+
+<body class="stretched side-push-panel">
+
+	<div id="side-panel">
+		<div id="side-panel-trigger-close" class="side-panel-trigger"><a href="#"><i class="bi-x-lg"></i></a></div>
+		<div class="side-panel-wrap"></div>
+	</div>
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper">
+
+		<!-- Top Bar
+		============================================= -->
+		<div id="top-bar" class="transparent-topbar border-bottom-0">
+			<div class="container">
+
+				<div class="row justify-content-between">
+
+					<div class="col-12 col-md-auto">
+
+						<!-- Top Links
+						============================================= -->
+						<div class="top-links">
+
+						</div><!-- .top-links end -->
+
+					</div>
+				</div>
+
+			</div>
+		</div><!-- #top-bar end -->
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="transparent-header dark header-size-md" data-sticky-shrink="false">
+			<div id="header-wrap">
+				<div class="container">
+					<div class="header-row">
+
+						<!-- Logo
+						============================================= -->
+						<div id="logo">
+							<img class="logo-default" src="images/BOLOSROSA.png" alt="ROSA Logo">
+						</div><!-- #logo end -->
+
+						<div class="primary-menu-trigger">
+							<button class="cnvs-hamburger" type="button" title="Open Mobile Menu">
+								<span class="cnvs-hamburger-box"><span class="cnvs-hamburger-inner"></span></span>
+							</button>
+						</div>
+
+						<!-- Primary Navigation
+						============================================= -->
+						<nav class="primary-menu with-arrows">
+
+							<ul class="menu-container">
+								<li class="menu-item current"><a class="menu-link uil uil-angle-up" href="#slider">
+										<div>Início</div>
+									</a></li>
+								<li class="menu-item"><a class="menu-link uil uil-angle-up" href="#content">
+										<div>Diferencias</div>
+									</a></li>
+								<li class="menu-item"><a class="menu-link uil uil-angle-up" href="#Localização">
+										<div>Localização</div>
+									</a></li>
+							</ul>
+
+						</nav><!-- #primary-menu end -->
+
+					</div>
+				</div>
+			</div>
+			<div class="header-wrap-clone"></div>
+		</header><!-- #header end -->
+
+		<!-- Slider
+		============================================= -->
+		<section id="slider" class="slider-element min-vh-60 min-vh-md-100 dark include-header include-topbar">
+			<div class="slider-inner">
+
+				<div class="fslider h-100 position-absolute" data-speed="3000" data-pause="7500" data-animation="fade"
+					data-arrows="false" data-pagi="false" style="background-color: #333;">
+					<div class="flexslider">
+						<div class="slider-wrap">
+							<div class="slide"
+								style="background: url('images/bolos/grande.png') center center; background-size: cover;">
+							</div>
+							<div class="slide"
+								style="background: url('images/bolos/bolo2.png') center center; background-size: cover;">
+							</div>
+							<div class="slide"
+								style="background: url('images/bolos/bolo3.png') center center; background-size: cover;">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="vertical-middle">
+					<div class="container text-center">
+						<div class="emphasis-title m-0">
+							<h1>Bolos da Rosa</h1>
+							<span class="fw-light text-uppercase"
+								style="font-size: 18px; letter-spacing: 10px; color: rgba(255,255,255,0.9);">Cada Bolo
+								tem o sabor da infância
+								<br> Do forno direto para o coração </span>
+						</div>
+					</div>
+				</div>
+
+				<div class="video-wrap">
+					<div class="video-overlay real-estate-video-overlay"></div>
+				</div>
+
+			</div>
+		</section><!-- #slider end -->
+
+		<!-- Content
+		============================================= -->
+
+
+		<section id="content" class="uil uil-angle-up">
+			<div class="content-wrap pt-0">
+				<br><br>
+
+				<div class="container">
+					<div class="row gx-5 col-mb-80 uil uil-angle-up">
+
+						<!-- CONTEÚDO PRINCIPAL -->
+						<main class="postcontent col-lg-9">
+							<br><br><br>
+
+							<h2>Bem-vindo ao sabor que te abraça.</h2>
+							<p>
+								Aqui no <strong>BOLOS DA ROSA</strong>, cada receita nasce das mãos de uma mãe com
+								coração enorme.
+								Mais do que bolos, a Sra. Rosa entrega memórias, carinho e aquele sabor de infância.
+							</p>
+							<p>
+								Seja um bolo simples para o café da tarde, um bolo de festa, ou nossos recheados (como
+								<strong>Ninho, Nutella, KitKat</strong>...) — todos são feitos com ingredientes
+								selecionados, recheios caprichados e muito amor.
+							</p>
+							<p>
+								Da primeira garfada até o último farelo, você vai sentir o gosto da infância, da
+								celebração e do afeto. Agora dá uma olhada nessas belezuras que saem do nosso forno...
+								💕💕
+							</p>
+
+							<div class="line"></div>
+
+							<!-- GALERIA DE BOLOS -->
+							<div class="clear mt-5"></div>
+
+							<div id="section-gallery" class="heading-block text-center mt-5 page-section">
+								<h2>Decorado</h2>
+							</div>
+
+							<div class="fslider flex-thumb-grid grid-12 mb-6" data-pagi="false" data-arrows="false"
+								data-thumbs="true">
+								<div class="flexslider">
+									<div class="slider-wrap">
+										<div class="slide" data-thumb="images/bolos/grande.png"><img
+												src="images/bolos/grande.png" alt="Bolo Grande"></div>
+										<div class="slide" data-thumb="images/bolos/bolo3.png"><img
+												src="images/bolos/bolo3.png" alt="Bolo 3"></div>
+										<div class="slide" data-thumb="images/bolos/bolo2.png"><img
+												src="images/bolos/bolo2.png" alt="Bolo 2"></div>
+										<div class="slide" data-thumb="images/pao_de_mel/paomel1.png"><img
+												src="images/pao_de_mel/paomel1.png" alt="Pão de Mel 1"></div>
+										<div class="slide" data-thumb="images/pao_de_mel/paomel2.png"><img
+												src="images/pao_de_mel/paomel2.png" alt="Pão de Mel 2"></div>
+										<!-- Adicione mais imagens conforme quiser -->
+									</div>
+								</div>
+							</div>
+						</main>
+
+						<!-- SIDEBAR -->
+						<aside class="sidebar sticky-sidebar-wrap col-lg-3">
+							<div class="sidebar-widgets-wrap">
+								<div class="sticky-sidebar">
+
+									<!-- Galeria menor no sidebar -->
+									<div class="fslider flex-thumb-grid grid-12 mb-6" data-pagi="false"
+										data-arrows="false" data-thumbs="true">
+										<div class="flexslider">
+											<div class="slider-wrap">
+												<div class="slide" data-thumb="images/pao_de_mel/paomel1.png"><img
+														src="images/pao_de_mel/paomel1.png" alt="Sidebar Pão de Mel 1">
+												</div>
+												<div class="slide" data-thumb="images/pao_de_mel/paomel2.png"><img
+														src="images/pao_de_mel/paomel2.png" alt="Sidebar Pão de Mel 2">
+												</div>
+												<!-- Adicione outras imagens se quiser -->
+											</div>
+										</div>
+									</div>
+
+									<!-- MAPA -->
+									<div class="widget" id="Localização">
+										<h4>Map</h4>
+										<iframe
+											src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.4472802120636!2d-46.42362242576034!3d-23.5149863592771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce11fc73582b25%3A0x735ba91b31618099!2sR.%20T%C3%B3quio%2C%20100%20-%20Itrapo%C3%A3%2C%20Ribeir%C3%A3o%20Pires%20-%20SP%2C%2009442-480!5e0!3m2!1spt-BR!2sbr!4v1719854473031!5m2!1spt-BR!2sbr"
+											width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+											referrerpolicy="no-referrer-when-downgrade">
+										</iframe>
+									</div>
+
+
+									<!-- CONTATO -->
+									<div class="widget">
+										<h4>Contato</h4>
+										<ul class="iconlist">
+											<li>
+												<img src="images/icones/zap.png" alt="Ícone Telefone" width="20"
+													style="margin-right: 8px;">
+												<a href="https://wa.me/5511998117217" target="_blank">+55 11
+													99811-7217</a>
+											</li>
+											<li>
+												<img src="images/icones/gmail-new.png" alt="Ícone E-mail" width="20"
+													style="margin-right: 8px;">
+												<a href="mailto:contato@bolosdarosa.com"
+													target="_blank">contato@bolosdarosa.com</a>
+											</li>
+										</ul>
+
+									</div>
+
+								</div>
+							</div>
+						</aside>
+					</div>
+				</div>
+
+				<div class="clear mt-5"></div>
+			</div>
+		</section>
+		<!-- Go To Top
+	============================================= -->
+		<div id="gotoTop" class="uil uil-angle-up"></div>
+		<!-- Footer
+		============================================= -->
+		<footer id="footer" class="dark bg-dark pb-5">
+			<div class="container">
+
+				<!-- Footer Widgets
+				============================================= -->
+				<div class="footer-widgets-wrap pb-5">
+					<div class="row align-items-center justify-content-center text-center gy-2">
+						<div class="col-12">
+							<img class="rolinha" srcset="images/BOLOSROSA.png, images/BOLOSROSA.png -20%"
+								src="images/BOLOSROSA.png" alt="NVM Logo Footer">
+						</div>
+						<div class="col-12">
+							<div class="d-inline-flex gap-5">
+								<a href="#slider" class="text-contrast-700 h-text-color">Início</a>
+								<a href="#content" class="text-contrast-700 h-text-color">Diferencias</a>
+								<a href="https://maps.app.goo.gl/dfY3ECkaqDGKymhP9"
+									class="text-contrast-700 h-text-color">Localização</a>
+								<a href="https://www.instagram.com/gab3_rolim?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+									class="text-contrast-700 h-text-color">Parceiros</a>
+							</div>
+						</div>
+					</div>
+				</div><!-- .footer-widgets-wrap end -->
+
+				<!-- Copyrights
+				============================================= -->
+				<div id="copyrights" class="bg-transparent border-top border-default text-center">
+					Copyrights &copy; 2024 Todos os Direitos Reservados pela Rosângela Rodrigues Rolim.
+				</div><!-- #copyrights end -->
+
+				<p style="opacity: 0.4;">Dev. Gab3_Rolim</p>
+			</div>
+		</footer><!-- #footer end -->
+
+	</div><!-- #wrapper end -->
+</body>
+<!-- JavaScripts
+	============================================= -->
+<script src="js/plugins.min.js"></script>
+<script src="js/functions.bundle.js"></script>
+
+<!-- Bootstrap Select Plugin -->
+<script src="js/components/bs-select.js"></script>
+
+<!-- Bootstrap Switch Plugin -->
+<script src="js/components/bs-switches.js"></script>
+
+<!-- Range Slider Plugin -->
+<script src="js/components/rangeslider.min.js"></script>
+
+<script>
+
+	jQuery(document).ready(function () {
+		jQuery(".price-range-slider").ionRangeSlider({
+			type: "double",
+			prefix: "$",
+			min: 200,
+			max: 10000,
+			max_postfix: "+"
+		});
+
+		jQuery(".area-range-slider").ionRangeSlider({
+			type: "double",
+			min: 50,
+			max: 20000,
+			from: 50,
+			to: 20000,
+			postfix: " sqm.",
+			max_postfix: "+"
+		});
+
+		jQuery(".bt-switch").bootstrapSwitch();
+	});
+	// Smooth Scroll for Anchor Links
+	document.addEventListener('DOMContentLoaded', function () {
+		const links = document.querySelectorAll('.menu-link[href^="#"]');
+
+		links.forEach(link => {
+			link.addEventListener('click', function (e) {
+				e.preventDefault();
+				const targetId = this.getAttribute('href').substring(1);
+				const target = document.getElementById(targetId);
+				if (!target) return;
+				const startPosition = window.scrollY;
+				const targetPosition = target.getBoundingClientRect().top + window.scrollY;
+				const distance = targetPosition - startPosition;
+				let startTime = null;
+				const duration = 1500; //time in milliseconds
+				function animation(currentTime) {
+					if (startTime === null) startTime = currentTime;
+					const timeElapsed = currentTime - startTime;
+					const run = easeInOutQuad(timeElapsed, startPosition, distance, duration);
+					window.scrollTo(0, run);
+					if (timeElapsed < duration) requestAnimationFrame(animation);
+				}
+				function easeInOutQuad(t, b, c, d) {
+					t /= d / 2;
+					if (t < 1) return c / 2 * t * t + b;
+					t--;
+					return -c / 2 * (t * (t - 2) - 1) + b;
+				}
+				requestAnimationFrame(animation);
+			});
+		});
+	});
+</script>
+<!-- Lightbox Estrutura -->
+<div id="lightbox" style="
+		display: none;
+		position: fixed;
+		top: 0; left: 0;
+		width: 100vw;
+		height: 100vh;
+		background-color: rgba(0,0,0,0.9);
+		justify-content: center;
+		align-items: center;
+		z-index: 9999;
+		flex-direction: column;
+		transition: all 0.3s ease;
+		">
+	<span id="close-btn" style="
+		color: white;
+		font-size: 30px;
+		position: absolute;
+		top: 20px;
+		right: 30px;
+		cursor: pointer;
+		font-family: sans-serif;
+		z-index: 10000;
+	">&times;</span>
+
+	<img id="lightbox-img" src="" style="
+		max-width: 90%;
+		max-height: 80%;
+		border-radius: 8px;
+		transition: opacity 0.3s ease;
+	">'
+
+	<div style="position: absolute; bottom: 40px;">
+		<button id="prev-btn" style="
+      margin-right: 20px;
+      padding: 10px 20px;
+      font-size: 18px;
+      cursor: pointer;
+    ">&larr; Anterior</button>
+		<button id="next-btn" style="
+      padding: 10px 20px;
+      font-size: 18px;
+      cursor: pointer;
+    ">Próxima &rarr;</button>
+	</div>
+</div>
+
+<script>
+	document.addEventListener('DOMContentLoaded', function () {
+		const slides = document.querySelectorAll('.slide img');
+		const lightbox = document.getElementById('lightbox');
+		const lightboxImg = document.getElementById('lightbox-img');
+		const closeBtn = document.getElementById('close-btn');
+		const nextBtn = document.getElementById('next-btn');
+		const prevBtn = document.getElementById('prev-btn');
+
+		let currentIndex = 0;
+		let imgList = Array.from(slides);
+
+		imgList.forEach((img, index) => {
+			img.style.cursor = 'zoom-in';
+			img.addEventListener('click', function () {
+				currentIndex = index;
+				openLightbox(img.src);
+			});
+		});
+
+		function openLightbox(src) {
+			lightboxImg.style.opacity = '0';
+			lightbox.style.display = 'flex';
+			setTimeout(() => {
+				lightboxImg.src = src;
+				lightboxImg.style.opacity = '1';
+			}, 100);
+		}
+
+		function closeLightbox() {
+			lightbox.style.display = 'none';
+		}
+
+		function showNextImage() {
+			currentIndex = (currentIndex + 1) % imgList.length;
+			openLightbox(imgList[currentIndex].src);
+		}
+
+		function showPrevImage() {
+			currentIndex = (currentIndex - 1 + imgList.length) % imgList.length;
+			openLightbox(imgList[currentIndex].src);
+		}
+
+		closeBtn.addEventListener('click', closeLightbox);
+		nextBtn.addEventListener('click', showNextImage);
+		prevBtn.addEventListener('click', showPrevImage);
+
+		// Fecha se clicar fora da imagem
+		lightbox.addEventListener('click', function (e) {
+			if (e.target === lightbox) {
+				closeLightbox();
+			}
+		});
+
+		// Fecha no ESC
+		document.addEventListener('keydown', function (e) {
+			if (e.key === 'Escape') closeLightbox();
+			if (e.key === 'ArrowRight') showNextImage();
+			if (e.key === 'ArrowLeft') showPrevImage();
+		});
+	});
+</script>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+<a href="https://api.whatsapp.com/send?phone=5511998117217&text=Olá! Tudo bem? Eu vi seu site de bolos e gostaria de obter mais informações!"
+	class="float" target="_blank">
+	<i class="fa fa-whatsapp my-float"></i>
+</a>
+
+</html>
